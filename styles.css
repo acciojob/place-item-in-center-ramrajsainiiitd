@@ -1,15 +1,16 @@
 
 /* Your CSS Code here. */
 .holder{
-	width:100vh;
-	height:100vh;
+	display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    width: 100vw; /* Full viewport width */
+    height: 100vh;
 	
 }
 .item-1{
-	display:flex;
 	width:100px;
 	height:100px;
 	background-color:red;
-	justify-content:center;
-	align-items:center;
+	
 }
